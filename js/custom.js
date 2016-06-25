@@ -1,10 +1,7 @@
 
-
-
-
 $(document).ready(function() {
  
-  $("#owl-demo").owlCarousel({
+  $("#brand-logo").owlCarousel({
  
       autoPlay: 3000, //Set AutoPlay to 3 seconds
  
