@@ -16,7 +16,9 @@
     <![endif]-->
   </head>
   <body>
-
+<div id="loading">
+<div id="loading-image" ><img src="http://ydirection.com/assets/images/ripple-2.gif" alt="Loading..." /></div>
+</div>
 
   <section class="top-area">
     
@@ -642,5 +644,13 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="js/custom.js"></script>
     <script src="js/owl.carousel.min.js"></script>
+    <script type="text/javascript">
+      $(window).load(function() {
+      	setTimeout(function() {
+      			$('#loading').fadeOut('slow', function() {
+      			});
+      	}, 3000);
+      });
+    </script>
   </body>
 </html>
